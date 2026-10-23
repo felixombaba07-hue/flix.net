@@ -1,0 +1,8 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Admin | FLIX NET</title><link rel="stylesheet" href="styles.css"></head><body><header><a class="brand" href="index.html"><span>FN</span> FLIX <b>NET</b></a></header><main class="admin"><small class="orange">ADMIN CONTROL CENTER</small><h1>FLIX NET Dashboard</h1><div class="stats"><div><small>USERS</small><strong id="users">0</strong></div><div><small>PACKAGES</small><strong id="count">0</strong></div><div><small>PAYMENTS</small><strong id="payments">0</strong></div></div><section class="card wide"><div class="row"><h2>Packages</h2><button id="add" class="btn small">+ Add package</button></div><div id="package-admin"></div></section><section class="card wide"><h2>Users</h2><div id="user-admin"></div></section><section class="card wide"><h2>Netlify configuration</h2><p>Set your Paystack and hotspot credentials as Netlify environment variables. Never place secret keys in frontend code.</p><pre>PAYSTACK_SECRET_KEY
+PAYSTACK_PUBLIC_KEY
+HOTSPOT_TYPE
+HOTSPOT_HOST
+HOTSPOT_USERNAME
+HOTSPOT_PASSWORD
+ADMIN_PHONE
+WHATSAPP_NUMBER</pre></section></main><script src="app.js"></script></body></html>
