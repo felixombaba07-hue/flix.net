@@ -1,8 +1,1 @@
-{
-  "name": "flix-net",
-  "version": "1.0.0",
-  "private": true,
-  "engines": {
-    "node": ">=20"
-  }
-}
+{"name":"flix-net","version":"2.0.0","private":true,"type":"module","scripts":{"dev":"vercel dev","check":"node --check app.js && node --check lib/server.js && node --check api/config.js && node --check api/packages.js && node --check api/paystack/initialize.js && node --check api/paystack/verify.js && node --check api/paystack/webhook.js"},"dependencies":{"@supabase/supabase-js":"^2.58.0"},"devDependencies":{"vercel":"^48.1.0"}}
